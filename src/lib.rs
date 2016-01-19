@@ -22,8 +22,8 @@ impl Clock {
         self.minutes = (ms / (1000 * 60)) % 60;
         self.hours = (ms / (1000 * 60 * 60)) % 24;
     }
-    pub fn set_time_s(&mut self, seconds: i64) {
-        self.set_time_ms(seconds / 1000);
+    pub fn set_time_secs(&mut self, seconds: i64) {
+        self.set_time_ms(seconds * 1000);
     }
     pub fn get_time(&self) -> String {
         format!("{:02}:{:02}:{:02}", self.hours, self.minutes, self.seconds)
