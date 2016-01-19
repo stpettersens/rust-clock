@@ -1,2 +1,2 @@
 # rust-clock
-Display a hh:mm:sss clock on the CLI in Rust.
+Create a hh:mm:ss clock for the CLI from seconds or milliseconds in Rust. 
