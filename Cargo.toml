@@ -1,4 +1,12 @@
 [package]
-name = "clock"
+name = "rust-clock"
+description = "Rust library to create a hh:mm:ss CLI clock from seconds or miliseconds."
 version = "0.1.0"
 authors = ["Sam Saint-Pettersen <s.stpettersen+github@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/stpettersens/rust-clock"
+homepage = "https://github.com/stpettersens/rust-clock"
+documentation = "http://docs.rs/rust-clock"
+license = "MIT"
+keywords = ["cli", "clock", "seconds", "ms", "library"]
+exclude = [".gitignore", ".travis.yml", "appveyor.yml"]
